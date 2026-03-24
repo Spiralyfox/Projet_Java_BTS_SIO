@@ -51,7 +51,7 @@ void main() {
     System.out.println("3 : (b == a + d) && (a == b) -> " + ((b == a + d) && (a == b))); // false
     System.out.println("4 : (b == a) || (a == a) -> " + ((b == a) || (a == a))); // true
     System.out.println("5 : (c == 5) && false -> " + ((c == 5) && false)); // false
-    System.out.println("6 : ((4 == 4) && (4 == 5)) || (a == a) -> " + (((4 == 4) && (4 ==5)) || (a == a))); // true */
+    System.out.println("6 : ((4 == 4) && (4 == 5)) || (a == a) -> " + (((4 == 4) && (4 ==5)) || (a == a))); // true
 
     // Exercice 5 =========================
 
@@ -63,6 +63,13 @@ void main() {
         System.out.println("a = b = c");
     } else {
         System.out.println("a, b et c sont différents");
+    } */
+
+    // Exercice 6 =========================
+
+    for (int i = 0; i <= 10; i++) {
+        System.out.println(i);
+
     }
 
 }
