@@ -18,7 +18,7 @@ void main() {
     System.out.println(NbVirgule);
     System.out.println(GrosNbVirgule);
     System.out.println(VraiFaux);
-    System.out.println(ChaineChar); */
+    System.out.println(ChaineChar);
 
     // Exercice 2
 
@@ -29,7 +29,17 @@ void main() {
     int AnneeDeNaissance = 2002;
     int age = 2026 - AnneeDeNaissance;
 
-    System.out.println(NomComplet + " est né en " + AnneeDeNaissance + " il a donc " + age + " ans");
+    System.out.println(NomComplet + " est né en " + AnneeDeNaissance + " il a donc " + age + " ans"); */
 
+    // Exercice 3
+
+    int a = 5;
+    int b = 10;
+
+    if (a == b) {
+        System.out.println("a = b");
+    } else {
+        System.out.println("a et b sont différents");
+    }
 
 }
