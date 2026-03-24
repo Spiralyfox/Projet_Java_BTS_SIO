@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 void main() {
 
     /*        System.out.println("Hello World");
@@ -70,7 +72,7 @@ void main() {
     for (int i = 0; i <= 10; i++) {
         System.out.println(i);
 
-    } */
+    }
 
     // Exercice 7 =========================
 
@@ -79,6 +81,33 @@ void main() {
     while (i <= 10) {
         System.out.println(i);
         i++;
-    }
+    } */
 
+    // Exercice 8 =========================
+
+    ArrayList<Double> notes = new ArrayList<Double>();
+
+    notes.add(12.5);
+    notes.add(13.0);
+    notes.add(15.0);
+
+    System.out.println("Liste : " + notes);
+
+    notes.set(1, 15.0);
+
+    System.out.println("Après modification : " + notes);
+
+    notes.add(12.0);
+    notes.add(15.0);
+    notes.add(16.0);
+
+    System.out.println("Après ajouts : " + notes);
+
+    double somme = 0;
+    for (int i = 0; i < notes.size(); i++) {
+        somme = somme + notes.get(i);
+    }
+    double moyenne = somme / notes.size();
+
+    System.out.println("Moyenne : " + moyenne);
 }
