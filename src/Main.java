@@ -63,13 +63,22 @@ void main() {
         System.out.println("a = b = c");
     } else {
         System.out.println("a, b et c sont différents");
-    } */
+    }
 
     // Exercice 6 =========================
 
     for (int i = 0; i <= 10; i++) {
         System.out.println(i);
 
+    } */
+
+    // Exercice 7 =========================
+
+    int i = 0;
+
+    while (i <= 10) {
+        System.out.println(i);
+        i++;
     }
 
 }
